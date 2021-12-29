@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+audio,
+video {
+  outline: none;
+}
+
+@font-face {
+  font-family: "Caveat-VariableFont_wght";
+  src: local("Caveat-VariableFont_wght"),
+    url(./fonts/Caveat-VariableFont_wght.ttf) format("truetype");
+}
+
+body {
+  font-family: "Caveat-VariableFont_wght";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #e2faff;
+}
